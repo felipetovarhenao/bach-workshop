@@ -47,8 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.0, 49.5, 728.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 50.0, 500.0, 23.0 ],
 					"text" : "A quick comparison between Max lists and bach's lisp-like linked lists (llll)",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ],
 					"textjustification" : 1
@@ -64,8 +62,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.0, 12.5, 728.0, 35.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 12.5, 285.0, 35.0 ],
 					"text" : "Max vs. bach",
 					"textjustification" : 1
 				}
