@@ -1120,7 +1120,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 333.0, 5.0, 1141.0 ]
+					"patching_rect" : [ 400.0, 78.0, 5.0, 1396.0 ]
 				}
 
 			}
