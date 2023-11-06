@@ -899,7 +899,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 13.0, 189.0, 33.0 ],
-					"text" : "Basic exercises"
+					"text" : "Basic tutorials"
 				}
 
 			}

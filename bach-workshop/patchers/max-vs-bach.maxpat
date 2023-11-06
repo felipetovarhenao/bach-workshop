@@ -107,6 +107,7 @@
 			}
 , 			{
 				"box" : 				{
+					"embed" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -117,9 +118,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 723.0, 1315.0, 138.0, 82.0 ],
-					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "[", "[", 1, "[", 4, "]", "]", "]", "[", "[", 9, "]", 16, 25, "]" ],
-					"whole_tree_data_count" : [ 1 ]
+					"versionnumber" : 80300
 				}
 
 			}
@@ -136,6 +135,7 @@
 			}
 , 			{
 				"box" : 				{
+					"embed" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -146,9 +146,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 434.5, 1315.0, 138.0, 82.0 ],
-					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "[", "[", 1, "[", 2, "]", "]", "]", "[", "[", 3, "]", 4, 5, "]" ],
-					"whole_tree_data_count" : [ 1 ]
+					"versionnumber" : 80300
 				}
 
 			}
@@ -166,6 +164,7 @@
 			}
 , 			{
 				"box" : 				{
+					"embed" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -176,9 +175,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 576.0, 1315.0, 138.0, 82.0 ],
-					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "[", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1073741824, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1074790400, "]", "]", "]", "[", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075314688, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075838976, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]" ],
-					"whole_tree_data_count" : [ 1 ]
+					"versionnumber" : 80300
 				}
 
 			}
@@ -552,6 +549,7 @@
 			}
 , 			{
 				"box" : 				{
+					"embed" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -562,9 +560,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 630.5, 1039.0, 138.0, 82.0 ],
-					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "a", "[", "b", "c", "[", "d", "]", "]" ],
-					"whole_tree_data_count" : [ 1 ]
+					"versionnumber" : 80300
 				}
 
 			}
@@ -794,6 +790,7 @@
 			}
 , 			{
 				"box" : 				{
+					"embed" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -804,9 +801,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 576.0, 584.0, 236.0, 85.0 ],
-					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "a", "[", "[", "b", "c", "]", "d", "]" ],
-					"whole_tree_data_count" : [ 1 ]
+					"versionnumber" : 80300
 				}
 
 			}
@@ -1186,6 +1181,7 @@
 			}
 , 			{
 				"box" : 				{
+					"embed" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1196,9 +1192,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 429.0, 171.0, 236.0, 85.0 ],
-					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "[", "A", "B", "C", "D", "]", "[", "a", "b", "c", "d", "]" ],
-					"whole_tree_data_count" : [ 1 ]
+					"versionnumber" : 80300
 				}
 
 			}
@@ -1216,6 +1210,7 @@
 			}
 , 			{
 				"box" : 				{
+					"embed" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1227,9 +1222,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 149.0, 171.0, 236.0, 85.0 ],
-					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "A", "B", "C", "D", "a", "b", "c", "d" ],
-					"whole_tree_data_count" : [ 1 ]
+					"versionnumber" : 80300
 				}
 
 			}
@@ -1700,14 +1693,14 @@
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.median.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1734,7 +1727,7 @@
 , 			{
 				"name" : "bach.times.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

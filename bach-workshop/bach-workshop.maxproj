@@ -20,12 +20,12 @@
 				"local" : 1
 			}
 ,
-			"basic-exercises.maxpat" : 			{
+			"basic-tutorials.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"advanced-exercises.maxpat" : 			{
+			"advanced-tutorials.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
