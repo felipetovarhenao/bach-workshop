@@ -775,6 +775,7 @@
 			}
 , 			{
 				"box" : 				{
+					"embed" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -785,9 +786,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 632.0, 1425.0, 401.0, 120.0 ],
-					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "[", "C5", "]" ],
-					"whole_tree_data_count" : [ 1 ]
+					"versionnumber" : 80300
 				}
 
 			}
