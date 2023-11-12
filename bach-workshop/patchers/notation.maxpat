@@ -509,7 +509,7 @@
 					"numvoices" : 3,
 					"out" : "nnnnnnt",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 29.0, 255.0, 905.0, 269.0 ],
+					"patching_rect" : [ 29.0, 255.0, 914.0, 269.0 ],
 					"pitcheditrange" : [ "null" ],
 					"playpartialnotes" : 0,
 					"stafflines" : [ 5, 5, 5 ],
@@ -990,28 +990,33 @@
 , 			{
 				"box" : 				{
 					"bwcompatibility" : 80300,
-					"clefs" : [ "FG" ],
+					"clefs" : [ "FG", "FG" ],
 					"defaultnoteslots" : [ "null" ],
 					"embed" : 0,
+					"enharmonictable" : [ "default", "default" ],
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidevoices" : [ 0, 0 ],
 					"id" : "obj-16",
+					"keys" : [ "CM", "CM" ],
 					"loop" : [ 0.0, 1000.0 ],
 					"maxclass" : "bach.roll",
+					"midichannels" : [ 1, 2 ],
 					"numinlets" : 6,
 					"numoutlets" : 8,
-					"numvoices" : 1,
+					"numparts" : [ 1, 1 ],
+					"numvoices" : 2,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
 					"patching_rect" : [ 336.0, 1561.0, 389.0, 240.0 ],
 					"pitcheditrange" : [ "null" ],
-					"stafflines" : [ 5 ],
+					"stafflines" : [ 5, 5 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tonedivision" : 8,
 					"versionnumber" : 80300,
-					"voicenames" : [ "[", "]" ],
-					"voicespacing" : [ 0.0, 17.0 ],
+					"voicenames" : [ "[", "]", "[", "]" ],
+					"voicespacing" : [ 0.0, 17.0, 17.0 ],
 					"vzoom" : 100.0
 				}
 
@@ -1200,7 +1205,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 797.928571428571445, 566.0, 954.0, 566.0, 954.0, 875.0, 953.928571428571445, 875.0 ],
+					"midpoints" : [ 805.64285714285711, 566.0, 954.0, 566.0, 954.0, 875.0, 953.928571428571445, 875.0 ],
 					"source" : [ "obj-9", 6 ]
 				}
 
