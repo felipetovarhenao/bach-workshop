@@ -2,7 +2,7 @@
 	"name" : "bach-workshop",
 	"version" : 1,
 	"creationdate" : 3782060401,
-	"modificationdate" : 3782125110,
+	"modificationdate" : 3782603179,
 	"viewrect" : [ 28.0, 101.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -27,6 +27,24 @@
 ,
 			"advanced-tutorials.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"utils.credit.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"cc_logo.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"ccm_logo.png" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 
