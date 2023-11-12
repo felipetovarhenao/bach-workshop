@@ -80,7 +80,7 @@
 					"patching_rect" : [ 476.0, 13.0, 148.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 75.574922187638947, 492.584350656900483, 20.0 ],
-					"text" : "@ 2023 Felipe Tovar-Henao | tovarhfe@ucmail.uc.edu",
+					"text" : "© 2023 Felipe Tovar-Henao | tovarhfe@ucmail.uc.edu",
 					"textjustification" : 2
 				}
 
