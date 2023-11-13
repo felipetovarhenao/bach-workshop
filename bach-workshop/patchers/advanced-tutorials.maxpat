@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 882.0, 6183.5, 135.0, 33.0 ],
-					"presentation_linecount" : 8,
 					"text" : "clears [bach.roll] when no solutions are found"
 				}
 
@@ -94,7 +93,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 668.0, 6118.0, 175.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "sort the pitches in every trichord from lowest to highest"
 				}
 
@@ -106,8 +104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 6007.5, 238.0, 47.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 37.0, 6007.5, 241.0, 47.0 ],
 					"text" : "when no solutions are found, we get a 'null' value. We use this to clear [bach.roll] when that happens."
 				}
 
@@ -120,7 +117,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 433.200000000000045, 5911.0, 122.0, 74.0 ],
-					"presentation_linecount" : 6,
 					"text" : "replace constraint with true (1) or false (0) value. True if constraint is satisfied, false if not."
 				}
 
@@ -145,7 +141,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 665.657589285714266, 5668.5, 282.0, 39.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Do this for every possible trichord in the input scale"
 				}
 
@@ -157,8 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.5, 5478.0, 252.0, 60.0 ],
-					"presentation_linecount" : 9,
+					"patching_rect" : [ 20.5, 5478.0, 254.0, 60.0 ],
 					"text" : "make 3 copies of the scale, representing the possible values that each of the pitches in the trichord could take. In CSP, this is known as the domain of each variable."
 				}
 
@@ -171,7 +165,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 363.0, 5607.75, 252.0, 74.0 ],
-					"presentation_linecount" : 10,
 					"text" : "we create a constraint named \"trichord\", which will consider the domains 1, 2, and 3 together. In this case, this is just the same input scale, 3 times. Notice that the name is \"trichord\" is arbitrary."
 				}
 
@@ -184,7 +177,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.0, 5902.0, 129.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "@solutions 0 means return all possible solutions"
 				}
 
@@ -196,7 +188,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 794.5, 5965.0, 129.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "are primeforms equal?"
 				}
 
@@ -208,7 +199,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 594.0, 5871.0, 86.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "get prime form"
 				}
 
@@ -243,7 +233,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 612.0, 5929.0, 84.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "update results"
 				}
 
@@ -255,7 +244,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 416.0, 5288.0, 77.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "add brackets"
 				}
 
@@ -289,7 +277,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.0, 5172.0, 215.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "store pitch collection (MIDI pitch value)"
 				}
 
@@ -302,7 +289,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 850.549285714285588, 4380.5, 109.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"text" : "update arpeggio if contour changes"
 				}
 
@@ -327,8 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 4965.0, 620.0, 91.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 8.0, 4965.0, 623.0, 91.0 ],
 					"text" : "This example uses shows a musical example of constraint satisfaction problems (CSPs), which can be addressed using [bach.constraints] object. In this case, we are interested in the following CSP: Given a pitch collection (e.g., a scale) and a trichord in prime form, find all possible trichords in the pitch collection with the same primeform. This allows us to quickly find all the instances, if any, of a chord type and its inversion exist within a pitch collection.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
@@ -341,8 +326,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 53.670000000000101, 4300.5, 117.928571428571331, 47.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 53.670000000000101, 4300.5, 119.0, 47.0 ],
 					"text" : "remove all brackets, and wrap all pitches with single brackets"
 				}
 
@@ -355,8 +339,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 491.069999999999993, 2415.0, 194.0, 60.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 491.069999999999993, 2415.0, 199.0, 60.0 ],
 					"text" : "§: when the number of durations is less than the number of chords, the last duration is used for the rest of the chords."
 				}
 
@@ -370,7 +353,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 491.069999999999993, 1741.0, 194.0, 74.0 ],
-					"presentation_linecount" : 30,
 					"text" : "*: when the number of onsets is less than the number of chords, time interval between the last 2 onsets given is used to determine the rest of the onsets."
 				}
 
@@ -382,7 +364,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 588.098571428571518, 4628.875, 58.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "durations"
 				}
 
@@ -405,7 +386,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 503.199999999999989, 3380.0, 58.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "durations"
 				}
 
@@ -428,7 +408,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 323.670000000000016, 2378.0, 75.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "durations [§]"
 				}
 
@@ -487,7 +466,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 872.598571428571404, 4546.0, 235.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "replace index with pitch from current chord"
 				}
 
@@ -499,7 +477,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 414.298571428571222, 4536.0, 197.0, 20.0 ],
-					"presentation_linecount" : 4,
 					"text" : "replace current chord with arpeggio"
 				}
 
@@ -539,8 +516,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 611.598571428571404, 4430.5, 232.0, 60.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 611.598571428571404, 4430.5, 233.0, 60.0 ],
 					"text" : "scale contour from 0-to-1 range, to 1-to-N range, where N is the chord size. These will be the indices for each pitch in the current chord"
 				}
 
@@ -554,7 +530,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 776.598571428571404, 4185.0, 264.0, 39.0 ],
-					"presentation_linecount" : 2,
 					"text" : "do this for every normalized index (inner loop 1)"
 				}
 
@@ -566,8 +541,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 553.527142857142849, 4198.0, 173.071428571428555, 74.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 553.527142857142849, 4198.0, 175.0, 74.0 ],
 					"text" : "N equally spaced values from 0 to 1, where N is the arpeggio size. It's used to sample from the arpeggio contour in the [function] object. (see"
 				}
 
@@ -603,8 +577,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.062857142857126, 3980.0, 209.08499999999998, 141.0 ],
-					"presentation_linecount" : 14,
+					"patching_rect" : [ 182.062857142857126, 3980.0, 211.0, 141.0 ],
 					"text" : "@maxdepth -2 tells [bach.mapelem] to only look for elements that are 2-levels deep (depth = 2) and pass them to the lambda loop. In this case, it ensures we're handling chords, instead of individual pitches.\n\n@unwrap 1 simply removes the enclosing brackets of each chord, for convenience."
 				}
 
@@ -619,7 +592,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.170000000000016, 3606.0, 620.0, 57.0 ],
-					"presentation_linecount" : 3,
 					"text" : "This example shows a parametric arpeggiator, which given a chord progression (llll of midicents), an arpeggio size (integer) and an arpeggio contour (i.e., the [function] object), returns a series of arpeggios for every chord.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
@@ -633,7 +605,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 487.0, 3220.0, 253.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "double-click to see stored llll (pitch pattern)"
 				}
 
@@ -645,7 +616,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.0, 3114.0, 140.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "replace integer with slice"
 				}
 
@@ -669,7 +639,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 365.0, 3281.5, 171.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "get slice of pitch pattern from index 1 to index n, where n is the current integer"
 				}
 
@@ -704,7 +673,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 233.0, 3060.0, 216.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "reverse to generate subtractive version"
 				}
 
@@ -716,7 +684,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 279.670000000000073, 2981.0, 181.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "integers from 1 to <pattern size>"
 				}
 
@@ -728,7 +695,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 253.0, 2911.0, 91.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "get pattern size"
 				}
 
@@ -751,7 +717,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 612.08428571428567, 1972.0, 115.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "microtonal playback"
 				}
 
@@ -763,7 +728,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 541.714285714285779, 1061.0, 115.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "microtonal playback"
 				}
 
@@ -786,7 +750,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 273.370000000000005, 1704.0, 129.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "add 1 level of brackets"
 				}
 
@@ -809,7 +772,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 252.600000000000023, 1585.0, 123.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "get frequency partials"
 				}
 
@@ -832,7 +794,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.100000000000023, 1513.0, 96.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "integer multiples"
 				}
 
@@ -858,7 +819,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.170000000000016, 2716.0, 620.0, 57.0 ],
-					"presentation_linecount" : 3,
 					"text" : "This example shows a compositional process commonly found in minimalist music, based on pitch addition/subtraction. It takes a pattern of pitches and generates a longer passage by either adding of subtracting one note at a time.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
@@ -874,7 +834,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.170000000000016, 2036.0, 620.0, 124.0 ],
-					"presentation_linecount" : 7,
 					"text" : "This example shows a technique known as harmonic interpolation, which can be though of as a quantized glissando from one chord to another. In other words, every pitch from the first chord will gradually approximate another pitch in the second chord, given a number of interpolation steps. Luckily, bach already offers this functionality out of the box through the [bach.interp] object.\n\nNotice that in this example handles the simple case in which both chords must have the same number of pitches. More advanced approaches exist but are beyond the scope of this workshop.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
@@ -889,8 +848,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.100000000000023, 1129.0, 618.0, 158.0 ],
-					"presentation_linecount" : 9,
+					"patching_rect" : [ 15.100000000000023, 1129.0, 623.0, 158.0 ],
 					"text" : "This example shows how to generate an (in)harmonic spectrum, with optional spectral distortion (just like in the previous example). The series is generated by multiplying a constant fundamental frequency with its integer multiples.\n\nHowever, different from the previous example, one applies spectral distortion in the frequency domain by raising the integer multiples of the fundamental to a constant power, which represents the distortion factor. This difference in operation in due to the fact that spectral distortion in the previous example is applied in the pitch domain through multiplication, while in the frequency domain this must be done through exponentiation.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
@@ -926,7 +884,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 338.199999999999989, 865.0, 149.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "apply new intervals to axis"
 				}
 
@@ -938,7 +895,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 231.199999999999989, 800.0, 89.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "distort intervals"
 				}
 
@@ -950,7 +906,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 197.199999999999989, 760.0, 125.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "get intervals from axis"
 				}
 
@@ -975,11 +930,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 239.0, 615.0, 259.0 ],
-					"presentation_linecount" : 14,
+					"patching_rect" : [ 14.0, 239.0, 618.0, 259.0 ],
 					"text" : "This example applies spectral distortion (i.e., harmonic compression/expansion) to a list of chords, given two variables: (1) a distortion axis in midicents and (2) a distortion factor as a float value.\n\nIt works by findind the pitch interval between every pitch and the axis, multiplying those intervals by a constant factor, and then adding them bach to the axis pitch.\n\nThe distortion factor has the following effect:\na) When the absolute value of the distortion factor is between 0 and 1, the intervals are compressed around the axis pitch (i.e., closer together).\nb) When the absolute value of the distortion factor is greater than 1, the intervals are expanded around the axis pitch (i.e., farther apart).\nc) When the distortion factor is exactly 1, the intervals are left unchanged.\nd) When the distortion factor is exactly 0, the intervals become a unison with the axis pitch.\ne) When the absolute value of the distortion factor is negative, the pitches are inverted around the axis.",
-					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
 			}
@@ -998,7 +951,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 354.574999999999989, 4.0, 499.25, 98.0 ],
+					"patching_rect" : [ 342.575000000000045, 4.0, 523.25, 98.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1025,7 +978,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 231.199999999999989, 141.0, 746.0, 40.0 ],
-					"text" : "These tutorials demonstrate less conventional composition techniques that computation makes dramatically easier for us to experiment with.",
+					"text" : "These tutorials demonstrate less conventional composition techniques that computers makes dramatically easier for us to experiment with.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ],
 					"textjustification" : 1
 				}
@@ -4880,6 +4833,10 @@
 			}
 , 			{
 				"name" : "bach.gt.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.hypercomment.mxo",
 				"type" : "iLaX"
 			}
 , 			{

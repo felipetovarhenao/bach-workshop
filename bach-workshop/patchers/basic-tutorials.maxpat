@@ -53,7 +53,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 128.375, 5.0, 499.25, 98.0 ],
+					"patching_rect" : [ 116.375, 5.0, 523.25, 98.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1619,6 +1619,10 @@
 			}
 , 			{
 				"name" : "bach.gt.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.hypercomment.mxo",
 				"type" : "iLaX"
 			}
 , 			{
