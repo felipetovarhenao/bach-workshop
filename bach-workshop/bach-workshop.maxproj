@@ -2,30 +2,35 @@
 	"name" : "bach-workshop",
 	"version" : 1,
 	"creationdate" : 3782060401,
-	"modificationdate" : 3782603179,
+	"modificationdate" : 3782770195,
 	"viewrect" : [ 28.0, 101.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
-	"showdependencies" : 1,
-	"autolocalize" : 0,
+	"showdependencies" : 0,
+	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
-			"max-vs-bach.maxpat" : 			{
+			"00_max-vs-bach.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"notation.maxpat" : 			{
+			"01_notation.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"basic-tutorials.maxpat" : 			{
+			"02_basic-tutorials.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"advanced-tutorials.maxpat" : 			{
+			"03_intermediate-tutorials.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"04_advanced-tutorials.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -34,7 +39,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-
 		}
 ,
 		"media" : 		{
@@ -47,10 +51,6 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
-
-		}
-,
-		"externals" : 		{
 
 		}
 
@@ -69,7 +69,7 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0,
-	"viewmode" : 1,
+	"sortmode" : 1,
+	"viewmode" : 0,
 	"includepackages" : 0
 }
